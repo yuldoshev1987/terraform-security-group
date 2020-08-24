@@ -10,3 +10,7 @@ variable "ssh_publicip" {
   type = string
   default = "173.48.205.16/32"
 }
+variable "username" {
+  type = "list"
+  default = ["Lola","Rano","ashish"]
+}
