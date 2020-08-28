@@ -8,7 +8,7 @@ variable "ingress_ports" {
 }
 variable "ssh_publicip" {
   type = string
-  default = "173.48.205.16/32"
+  default = "0.0.0.0/0"
 }
 variable "username" {
   type = "list"
